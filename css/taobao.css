@@ -1,0 +1,834 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*头部开始*/
+header{
+    height: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+header div.tru{
+	height: 1rem;
+	width: 10rem;
+	background: #fe5500 url("../img/logo.png")no-repeat;
+    background-position: 0.12rem;
+	background-size: 0.72rem 0.546rem;
+	position: relative;
+    margin: 0 auto;
+}
+header div.tru a{
+	width: 8.813rem;
+	height: 0.666rem;
+	background: #B52700;
+	display: block;
+	position: absolute;
+	top: 0.16rem;
+	right: 0.2rem;
+	border-radius: 0.12rem;
+	text-align: center;
+	line-height: 0.666rem;
+	color: #fcfcfc;
+	font-size: 13px;
+}
+[data-dpr="2"] header div.tru a{
+	font-size: 26px;
+}
+[data-dpr="3"] header div.tru a{
+	font-size: 39px;
+}
+
+header div.tru a .iconfont.icon-fangdajing{
+    font-size: 13px;
+}
+
+[data-dpr="2"] header div.tru a .iconfont.icon-fangdajing{
+    font-size: 26px;
+}
+
+[data-dpr="3"] header div.tru a .iconfont.icon-fangdajing{
+    font-size: 39px;
+    position: absolute;
+    left: 380px;
+}
+
+/*头部结束*/
+/*轮播图开始*/
+div.flash{
+	width: 10rem;
+	height: 3.12rem;
+	background: blue;
+    margin: 0 auto;
+}
+div.flash .swiper-container img{
+	width: 10rem;
+	height: 3.12rem;
+}
+/*轮播图结束*/
+
+/*列表开始*/
+div.lie{
+    width: 10rem;
+    height: 3.526rem;
+    margin: 0 auto;
+}
+div.lie ul.lie1{
+    width: 10rem;
+    height: 1.6rem;
+    margin-top: 0.2rem;
+}
+div.lie ul.lie1 li{
+     float: left;
+     width: 2rem;
+     height: 1.8rem;
+}
+div.lie ul.lie1 li a{
+     width: 2rem;
+     height: 1.8rem;
+     display: block;
+}
+div.lie ul.lie1 li a p{
+    color: #666;
+    text-align: center;
+    width: 2rem;
+    height: 0.5rem;
+}
+div.lie ul.lie1 li a img{
+    width: 2rem;
+    height: 1.3rem;
+}
+
+div.lie ul.lie2{
+    width: 10rem;
+    height: 1.6rem;
+    margin-top: 0.2rem;
+}
+div.lie ul.lie2 li{
+     float: left;
+     width: 2rem;
+     height: 1.8rem;
+}
+div.lie ul.lie2 li a{
+     width: 2rem;
+     height: 1.8rem;
+     display: block;
+}
+div.lie ul.lie2 li a p{
+    color: #666;
+    text-align: center;
+    width: 2rem;
+    height: 0.5rem;
+}
+div.lie ul.lie2 li a img{
+    width: 2rem;
+    height: 1.3rem;
+}
+/*列表结束*/
+
+/*淘宝头条开始*/
+div.toutiao{
+    width: 10rem;
+    height: 0.7rem;
+    margin-top: 0.3rem;
+    padding-bottom: 0.8rem;
+    margin: 0 auto;
+} 
+div.toutiao a{
+    float: left;
+    width: 2.76rem;
+    height: 0.8rem;
+    border-right: 1px solid #e8e8e8;
+    margin-right: 16px;
+}
+div.toutiao a img{
+    width: 2.10rem;
+    height: 0.8rem;
+    margin-left: 0.2rem;
+    
+}
+div.toutiao .lijian{
+    float: left;
+}
+div.toutiao .lijian button{
+    width: 1.44rem;
+    height: 0.766rem;
+    border: 1px solid #d81421;
+    color: #d81421;
+    background: #fff;
+    margin-right: 0.2rem;
+    border-radius: 0.12rem;
+    font-size: 13px;
+}
+[data-dpr="2"] div.toutiao .lijian button{
+    font-size: 26px;
+}
+[data-dpr="3"] div.toutiao .lijian button{
+    font-size: 39px;
+}
+div.toutiao .lijian span{
+    color: #353535;
+}
+div.toutiao .lijian button{}
+/*淘宝头条结束*/
+/*线条开始*/
+div.line{
+    width: 10rem;
+    height: 0.08rem;
+    background: #eee;
+    margin: 0 auto;
+}
+/*线条结束*/
+/*淘抢购开始*/
+.taoqianggou{
+    width: 10rem;
+    height: 5.533rem;
+    background: red;
+    margin: 0 auto;
+}
+.taoqianggou .taogou_left{
+    width: 4rem;
+    height: 5.533rem;
+    float: left;
+   
+    background: url("../img/imgInfo.jpg");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.taoqianggou .taogou_left .left-time{
+    width: 1.5rem;
+    height: 0.4rem;
+    margin-top: 1.8rem;
+    margin-left: 0.4rem;
+    color: #000;
+}
+.taoqianggou .taogou_left .left-time span{
+    width: 25px;
+    height: 20px;
+    background: #000;
+    color: #fff;
+}
+.taoqianggou .taogou_right{
+     width: 6rem;
+     height: 5.54rem;
+     float: right;
+}
+.taoqianggou .taogou_right .right1{
+    width: 6rem;
+    height: 2.77rem;
+     background: url("../img/gouwu_03.jpg");
+    background-size: 100% 100%;
+}
+.taoqianggou .taogou_right .right2{
+    width: 6rem;
+    height: 2.77rem;
+}
+.taoqianggou .taogou_right .right2 .street{
+    width: 3rem;
+    height: 2.77rem;
+    background: url("../img/aikuangjie_04.jpg");
+    background-size: 100% 100%;
+    float: left;
+}
+.taoqianggou .taogou_right .right2 .bill{
+    width: 3rem;
+    height: 2.77rem;
+    background: url("../img/maiqingdan_05.jpg");
+    background-size: 100% 100%;
+    float: right;
+}
+/*淘抢购结束*/
+/*树刚开始*/
+.line2{
+    width: 10rem;
+    height: 0.28rem;
+    background: #eee;
+    margin: 0 auto;
+}
+
+/*树刚结束*/
+/*超实惠开始*/
+.supershihui{
+   width: 10rem;
+   height: 9.5rem;
+   margin-top: 0.2rem;
+   margin: 0 auto;
+}
+.supershihui .shihui{
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.8rem;
+    height: 0.8rem;
+}
+.supershihui .shihui img{
+    width: 0.8rem;
+    height: 0.8rem;
+    float: left;
+    margin-right: 10px;
+}
+.supershihui .shihui h5{
+    color: #ff350e;
+    font-family: Arial;
+    width: 1.1rem;
+    float: left;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.supershihui .shihuigoods{
+    width: 10rem;
+    height: 4.22rem;
+}
+.supershihui .shihuigoods .shihuigoods-left{
+    width: 4rem;
+    height: 4.22rem;
+    float: left;
+}
+.supershihui .shihuigoods .shihuigoods-left div{
+    width: 4rem;
+    height: 4.22rem;
+}
+.supershihui .shihuigoods .shihuigoods-left div img{
+    width: 4rem;
+    height: 4.22rem; 
+}
+.supershihui .shihuigoods .shihuigoods-right{
+    width: 6rem;
+    height: 4.22rem;
+    float: right;
+}
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right1{
+    width: 2rem;
+    height: 4.22rem;
+    float: left;
+}
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right1 div{
+    width: 2rem;
+    height: 4.22rem;
+}
+
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right1 div img{
+    width: 2rem;
+    height: 4.22rem;
+}
+
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right2{
+    width: 2rem;
+    height: 4.22rem;
+    float: left;
+}
+
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right2 div{
+    width: 2rem;
+    height: 4.22rem;
+}
+
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right2 div img{
+    width: 2rem;
+    height: 4.22rem;
+}
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right3{
+    width: 2rem;
+    height: 4.22rem;
+   
+    float: right;
+}
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right3 div{
+    width: 2rem;
+    height: 4.22rem;
+}
+
+.supershihui .shihuigoods .shihuigoods-right .shihuigoods-right3 div img{
+    width: 2rem;
+    height: 4.22rem;
+}
+/*超实惠结束*/
+.line3{
+    width: 10rem;
+    height: 0.18rem;
+    background: #eee;
+    margin: 0 auto;
+}
+/*天猫必逛开始*/
+.tmall{
+    width: 10rem;
+    margin: 0 auto;
+    height: 7rem;
+    margin-top: 0.22rem;
+}
+.tmall .tmall-top{
+    width: 10rem;
+    height: 1rem;
+}
+.tmall .tmall-top a{
+    width: 4rem;
+    height: 1rem;
+    display: block;
+    margin-left: 220px;
+}
+.tmall .tmall-top a img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.tmall .tmall-top a span{
+    font-size: 16px;
+    height: 1.05rem;
+    line-height: 0.55rem;
+    color: #d10909;
+}
+.tmall .tmall-center{
+    width: 10rem;
+    height: 3rem;
+}
+.tmall .tmall-center .tc1{
+    width: 5rem;
+    height: 3rem;
+    background: url("../img/quanqiushishang.png");
+    background-size: 100% 100%; 
+    float: left;
+}
+.tmall .tmall-center .tc2{
+    width: 5rem;
+    height: 3rem;
+    background: url("../img/pinpaijie.png");
+    background-size: 100% 100%; 
+    float: right;
+}
+.tmall .tmall-bottom{
+    width: 10rem;
+    height: 3rem;
+}
+.tmall .tmall-bottom .tb1{
+    width: 2.5rem;
+    height: 3rem;
+    float: left;
+    background: url("../img/tianmaohuanxin.png");
+    background-size: 100% 100%;
+}
+.tmall .tmall-bottom .tb2{
+    width: 2.5rem;
+    height: 3rem;
+    float: left;
+    background: url("../img/tiantiangaoji.jpg");
+    background-size: 100% 100%;
+}
+.tmall .tmall-bottom .tb3{
+    width: 2.5rem;
+    height: 3rem;
+    float: left;
+    background: url("../img/miaoxiansheng.jpg");
+    background-size: 100% 100%;
+}
+.tmall .tmall-bottom .tb4{
+    width: 2.5rem;
+    height: 3rem;
+    float: right;
+    background: url("../img/shuningyigou.jpg");
+    background-size: 100% 100%;
+}
+/*天猫必逛结束*/
+/*线条4开始*/
+
+.line4{
+    width: 10rem;
+    height: 0.18rem;
+    background: #eee;
+    margin: 0 auto;
+}
+/*线条4开始*/
+/*特色好货开始*/
+.socially{
+    width: 10rem;
+    height: 7rem;
+    margin: 0 auto;
+}
+.socially .socially-top{
+    width: 10rem;
+    height: 1rem;
+}
+.socially .socially-top a{
+    width: 4rem;
+    height: 1rem;
+    display: block;
+    margin-left: 220px;
+}
+.socially .socially-top a img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+.socially .socially-top a h5{
+    font-size: 16px;
+    height: 1.05rem;
+    line-height: 0.55rem;
+    color: #d10909;
+}
+.socially .socially-center{
+    width: 10rem;
+    height: 2.5rem;
+}
+.socially .socially-center .sc1{
+     width: 2.5rem;
+     height: 3rem;
+     float: left;
+     background: url("../img/quanqiugou.png");
+     background-size: 100% 100%;
+}
+.socially .socially-center .sc2{
+     width: 2.5rem;
+     height:  3rem;
+     float: left;
+     background: url("../img/ali-healthy.jpg");
+     background-size: 100% 100%;
+}
+.socially .socially-center .sc3{
+     width: 2.5rem;
+     height: 3rem;
+     float: left;
+     background: url("../img/jiyoujia.png");
+     background-size: 100% 100%;
+}
+.socially .socially-center .sc4{
+     width: 2.5rem;
+     height: 3rem;
+     float: right;
+     background: url("../img/paimai2.png");
+     background-size: 100% 100%;
+}
+.socially .socially-bottom{
+    width: 10rem;
+    height: 3rem;
+}
+.socially .socially-bottom .sb1{
+     width: 2.5rem;
+     height: 3rem;
+     float: right;
+     background: url("../img/Chinazhizao.png");
+     background-size: 100% 100%;
+}
+.socially .socially-bottom .sb2{
+     width: 2.5rem;
+     height: 3rem;
+     float: right;
+     background: url("../img/yiyaojiankang.png");
+     background-size: 100% 100%;
+}
+.socially .socially-bottom .sb3{
+     width: 2.5rem;
+     height: 3rem;
+     float: right;
+     background: url("../img/taobaozongcou.png");
+     background-size: 100% 100%;
+}
+.socially .socially-bottom .sb4{
+     width: 2.5rem;
+     height: 3rem;
+     float: right;
+     background: url("../img/xiangdiao.jpg");
+     background-size: 100% 100%;
+}
+/*特色好货结束*/
+/*更多服务开始*/
+
+.sevice{
+    width: 10rem;
+    height: 1rem;
+    background: orange;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sevice a{
+    float: right;
+    color: #ff5210;
+    margin-top: 6px;
+    font-size: 20px;
+    margin-right: 17px;
+    
+}
+.sevice a span{
+    color: #666;
+}
+.sevice ul{
+  width: 1.9rem;
+  height: 0.9rem;
+  padding-top: 6px;
+  padding-left: 10px;    
+}
+.sevice ul li{
+    float: left;
+    width: 0.3rem;
+    height: 0.5rem;
+}
+.sevice ul li:nth-of-type(1){
+    margin-right: 0.2rem;
+}
+.sevice ul li:nth-of-type(2){
+    margin-right: 0.2rem;
+}
+.sevice ul li img{
+    width: 0.3rem;
+    height: 0.3rem;
+    margin-right: 8px;
+    display: block;
+}
+/*更多服务结束*/
+
+.guojihuizhan{
+    width: 10rem;
+    margin: 0 auto;
+    height: 1.44rem;
+}
+.guojihuizhan img{
+    width: 100%;
+    height: 1.44rem;
+}
+/*线条5开始*/
+.line5{
+    width: 10rem;
+    height: 0.18rem;
+    background: #eee;
+    margin: 0 auto;
+}
+/*线条5结束*/
+
+/*今日推荐开始*/
+.jinretuijian{
+    width: 10rem;
+    margin: 7px auto;
+    height: 130px;
+}   
+.jinretuijian .l1{
+    width: 3rem;
+    float: left;
+    height: 124px;
+}
+.jinretuijian .l1 img{
+    margin-left: 10px;
+}
+.jinretuijian .l1 h5{
+    text-align: center;
+}
+.jinretuijian .l2{
+    width: 2rem;
+    float: left;
+    height: 124px;
+}
+.jinretuijian .r1{
+    width: 3rem;
+    float: left;
+}
+.jinretuijian .r2{
+    width: 2rem;
+    float: right;
+}
+.line6{
+    width: 10rem;
+    height: 0.18rem;
+    background: #eee;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.wolike{
+    width: 10rem;
+    height: 1.5rem;
+    /*margin-top: 10px;*/
+    margin: 0 auto;
+    background: #eee;
+}
+.wolike .a-p{
+    width: 3rem;
+    height: 1.5rem;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.wolike .a-p a{
+    width: 20px;
+    height: 21px;
+}
+.wolike .a-p a img{
+    margin-right: 8px;
+}
+.wolike .a-p a span{
+    color: #333;
+   /* height: 40px;*/
+}
+.wolike .a-p p{
+    color: #787878;
+    margin-top: 5px;
+}
+.li1{
+    width: 10rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+.li1-left{
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    padding: 3px;
+}
+.li1-left .fer1{
+    width: 5rem;
+    height: 2.5rem;
+}
+.li1-left .fer1 img{
+     margin-left: 5px;
+     width: 4rem;
+     height: 2.5rem;
+}
+.li1-left p{
+    margin-top: 6px; 
+    color: #666;
+    margin-left: 30px;
+}
+.li1-left span{
+    color: #ff5000;
+    margin-left: 30px;
+    display: block;
+    margin-top: 10px;
+}
+.li1-right{
+    width: 5rem;
+    height: 5rem;
+    float: right;
+}
+.li1-right .fer2{
+    width: 5rem;
+    height: 2.5rem;
+}
+.li1-right .fer2 img{
+     margin-left: 5px;
+     width: 4rem;
+     height: 2.5rem;
+}
+.li1-right p{
+    margin-top: 6px; 
+    color: #666;
+    margin-left: 30px;   
+}
+.li1-right span{
+    color: #ff5000;
+    margin-left: 30px;
+    display: block;
+    margin-top: 10px;
+}
+.li2{
+    width: 10rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+.li2 .li2-left{
+    width: 5rem;
+    height: 4rem;
+    float: left;
+}
+.li2 .li2-left .fer1{
+    width: 5rem;
+    height: 2.5rem;
+}
+.li2 .li2-left .fer1 img{
+     margin-left: 5px;
+     width: 4rem;
+     height: 2.5rem;
+}
+.li2 .li2-left p{
+    margin-top: 6px; 
+    color: #666;
+    margin-left: 30px;   
+}
+.li2 .li2-left span{
+    color: #ff5000;
+    margin-left: 30px;
+    display: block;
+    margin-top: 10px;
+}
+.li2 .li2-right{
+    width: 5rem;
+    height: 4rem;
+    float: right;
+}
+.li2 .li2-right .fer2{
+    width: 5rem;
+    height: 2.5rem;
+}
+.li2 .li2-right .fer2 img{
+     margin-left: 5px;
+     width: 4rem;
+     height: 2.5rem;
+}
+.li2 .li2-right p{
+    margin-top: 6px; 
+    color: #666;
+    margin-left: 30px;   
+}
+.li2 .li2-right span{
+    color: #ff5000;
+    margin-left: 30px;
+    display: block;
+    margin-top: 10px;
+}
+/*今日推荐结束*/
+.dibu{
+   width: 10rem;
+    height: 2.3rem;
+    background-color: #4e525e;
+    margin: 0 auto;
+    padding: 29px 75px;
+}
+.dibu .buttongroup{
+    
+}
+.dibu .buttongroup a{
+    color: aliceblue;
+    width: 1.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.dibu .copyright{
+    color: aliceblue;
+    width: 7.5rem;
+    height: 0.3rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*footer部分开始*/
+footer{
+    width: 10rem;
+    height: 2rem;
+    background: #fff;
+    margin: auto;
+}   
+footer ul{
+    width: 10rem;
+    height: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    background: #e8e8e8;
+}
+footer ul li{
+    float: left;
+    width: 2rem;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+}
+footer ul li a{
+    width: 2rem;
+    height: 0.9rem;
+}
+footer ul li a p{
+    color: #5d656b;
+    font-size: 13px;
+} 
+[data-dpr="2"] footer ul li a p{font-size: 26px;}
+[data-dpr="3"] footer ul li a p{font-size: 39px;}
+/*footer部分结束*/

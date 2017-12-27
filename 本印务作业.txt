@@ -1,0 +1,164 @@
+1.首页内容做上三屏,有头有尾.
+2.做上一屏商品列表页.
+3.做上一屏商品详情页.
+截止本周五下午.
+
+下周做需求.
+电商网站
+阿里巴巴图标矢量库
+
+
+
+<footer>
+     <ul>
+         <li><a href="javascript:;">
+         <div class="home">
+          <img src="../----------/img/home_08.jpg" alt="">
+          </div>
+          <p>首页</p>
+         </a></li>
+         <li><a href="javascript:;">
+            <div class="wuliu">
+             <img src="../----------/img/wuliu_11.jpg" alt="">
+             </div>
+          <p>物流</p>
+         </a></li>
+         <li><a href="javascript:;">
+            <div class="cart">
+             <img src="../----------/img/gouwuche_13.jpg" alt="">
+             </div>
+          <p>购物车</p>
+         </a></li>
+         <li><a href="javascript:;">
+            <div class="mytaobao">
+             <img src="../----------/img/wodetaobao_15.jpg" alt="">
+             </div>
+          <p>我的淘宝</p>
+         </a></li>
+         <li><a href="javascript:;">
+            <div class="more">
+             <img src="../----------/img/more_18.jpg" alt="">
+             </div>
+          <p>更多</p>
+         </a></li>
+     </ul>
+ </footer>
+ 
+
+footer{
+    width: 10rem;
+    height: 1.107rem;
+   
+    padding-top: 0.10rem;
+    margin: 0 auto;
+}
+footer ul{
+    list-style: none;
+    position: fixed;
+    bottom: 0;
+}
+footer ul li{
+    float: left;
+    width: 2rem;
+    height: 1.107rem;
+}
+footer ul li a{
+    width: 2rem;
+    height: 1.107rem;
+    display: block;
+    text-decoration: none;
+}
+footer ul li a div.home{
+    width: 2rem;
+    height: 1.9535em;
+   
+}
+footer ul li a div.home img{
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+footer ul li a p{
+    width: 2rem;
+    height: 1.9935em;
+    color: #5d656b;
+    text-align: center;
+    font-size: 48px;
+}
+
+footer ul li a div.wuliu{
+    width: 2rem;
+    height: 1.9535em;
+   
+}
+footer ul li a div.wuliu img{
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+footer ul li a p{
+    width: 2rem;
+    height: 1.9935em;
+    color: #5d656b;
+    text-align: center;
+    font-size: 48px;
+}
+
+footer ul li a div.cart{
+    width: 2rem;
+    height: 1.9535em;
+   
+}
+footer ul li a div.cart img{
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+footer ul li a p{
+    width: 2rem;
+    height: 1.9935em;
+    color: #5d656b;
+    text-align: center;
+    font-size: 48px;
+}
+
+footer ul li a div.mytaobao{
+    width: 2rem;
+    height: 1.9535em;
+   
+}
+footer ul li a div.mytaobao img{
+    width: 60px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+footer ul li a p{
+    width: 2rem;
+    height: 1.9935em;
+    color: #5d656b;
+    text-align: center;
+    font-size: 48px;
+}
+
+footer ul li a div.more{
+    width: 2rem;
+    height: 1.9535em;
+   
+}
+footer ul li a div.more img{
+    width: 60px;
+    height: 18px;
+    margin-top: 32px;
+    margin-left: 90px;
+}
+footer ul li a p{
+    width: 2rem;
+    height: 1.9935em;
+    color: #5d656b;
+    text-align: center;
+    font-size: 48px;
+}
